@@ -1,0 +1,16 @@
+.process_style{
+   .process_now{
+      background-color: $minor;
+      color: $base;
+
+      border: 1.5px solid $minor;
+   }
+   .process_undone{
+      border: 1.5px solid $minor;
+      color: $minor;
+   }
+}
+
+.form-check-inline {
+   margin-right: 24px;
+}

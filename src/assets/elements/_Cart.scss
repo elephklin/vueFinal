@@ -1,0 +1,32 @@
+.process_style{
+   .process_now{
+      background-color: $minor;
+      color: $base;
+
+      border: 1.5px solid $minor;
+   }
+   .process_undone{
+      border: 1.5px solid $minor;
+      color: $minor;
+   }
+}
+
+.cart_table{
+   th, td{
+      border-top: 1px solid black;
+   }
+   thead th{
+      border-bottom: 0;
+   }
+   thead tr{
+      background-color: $minor;
+      color: $base;
+   }
+}
+
+.imgSize {
+   background-size: cover;
+   background-position: center center;
+   width: 50px;
+   height: 50px;
+}

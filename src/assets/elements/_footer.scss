@@ -1,0 +1,15 @@
+.footer{
+   background-color: #AFBADC;
+}
+.footer_border{
+   border-top: 2px solid $major;
+}
+.copyright{
+   background-color: $major;
+   color: $base;
+}
+.copyright small{
+   padding-left: 30px;
+   font-size: 12px;
+   color: #66666a;
+}

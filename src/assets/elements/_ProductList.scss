@@ -1,0 +1,40 @@
+.list-category{
+   a{
+      border-radius: 10px;
+      box-shadow: 1px 1px 2px $minor;
+      border: 1px solid  $minor;  
+      text-align: center;
+      display: block;
+      padding: .75rem;
+      transition: all .3s;
+      margin-bottom: 10px;
+
+      &:hover{
+         background-color:  $minor;
+         color: $base;
+      }
+   }
+   .active{
+      border-radius: 10px;
+      background-color:  $minor;
+      a {
+         color: $base;
+      }
+   }
+}
+
+// 卡片 img 縮放效果
+.card-cover{
+   overflow: hidden;
+}
+.card-img{
+   transform: scale(1, 1);
+   transition: all 0.3s ease-out;
+   position: relative;
+   height: 150px; 
+   background-size: cover; 
+   background-position: center;
+   &:hover {
+      transform: scale(1.2, 1.2);
+   }
+}

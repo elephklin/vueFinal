@@ -1,0 +1,44 @@
+.relatedGoods h4{
+   color: $minor;
+   font-weight: bold;
+}
+.goodsImg{
+   width: 70px;
+   height: 70px;
+   background-position: center center;
+   background-size: cover;
+}
+.goodsData{
+   margin-left: 20px;
+
+   .goodsData_price{
+      color: $danger;
+   }
+}
+
+.single_product{
+
+   .nav .nav-link{
+      color: $base;
+      background-color: $minor;
+      border: 1.5px solid $minor;
+      border-bottom: 0px;
+   }
+   .nav-link.active{
+      color: $minor;
+      background-color: $base;
+   }
+
+   #nav-tabContent{
+      border: 1.5px solid $minor;
+      border-bottom: 0px;
+
+      .table{
+         margin-bottom: 0;
+         th, td{
+            border-bottom: 1px solid $minor;
+         }
+      }
+   }
+
+}

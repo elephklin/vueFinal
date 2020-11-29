@@ -1,0 +1,127 @@
+.nav-link{
+   font-size: 20px;
+   &:hover {
+      color: $focus;
+   }
+}
+
+.navTop{
+   background-color: $major;
+   .nav-link, #dropdownMenuButton{
+      color: $base;
+      &:hover {
+         color: $focus;
+      }
+   }
+
+   .table tr, .table td{
+      border-top: 1px solid gray;
+   }
+}
+
+
+header{
+   background-color: #AFBADC;
+}
+
+.nav_logo{
+   background-repeat: no-repeat;
+   text-indent: 110%;
+   overflow: hidden;
+   white-space: nowrap;
+
+   background-image: url('./assets/images/TL.png');
+   
+   //背景圖垂直置中
+   background-position-y: center;
+   background-size: contain;
+   font-size: 40px;
+}
+
+
+.searchBar{
+   position: relative;
+   
+}
+/*. 改變搜尋列背景色
+form-control{
+   background-color: $other ;
+}*/
+.searchBar_icon{
+   position: absolute;
+   right: 5px;
+   
+   // 滑鼠游標改變
+   cursor: pointer;
+}
+
+
+// 登入 Modal
+.modal-body {
+   width: 66.67%;
+}
+
+a{
+   text-decoration: none;
+}
+.placeholder_site{
+   padding-left: 35px;
+}
+
+.user{
+   position: relative;
+}
+.user_icon{
+   position: absolute;
+   top: 11px;
+   left: 10px;
+}
+
+.key{
+   position: relative;
+}
+.key_icon{
+   position: absolute;
+   top: 11px;
+   left: 10px;
+}
+
+
+
+// 去除 dropdown 三角圖示
+.dropdown-toggle{
+   &:after{
+      border: 0;
+   }
+}
+
+.cartButton{
+   position: relative;
+}
+.cartButton .badge{
+   position: absolute;
+   top: 0;
+   right: 0;
+}
+
+.badge{
+   font-size: 60%;
+}
+
+
+// 下拉選單樣式
+.dropdown-menu{
+   width: 400px;
+   max-height: 400px;
+   overflow-y: scroll;
+}
+
+
+// 漢堡選單
+.navbar-toggler{
+   border: 2px solid $minor;
+
+   .navbar-toggler-icon{
+      color: $minor;
+   }
+}

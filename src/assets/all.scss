@@ -1,0 +1,21 @@
+// 套用變數的方法
+@import "~bootstrap/scss/functions";
+// 有上面那行，變數才能正確啟用
+@import "./helpers/_variables";
+@import "~bootstrap/scss/bootstrap";
+
+// 載入通用元件
+@import "./elements/base";
+
+
+// 載入自訂元件
+//不能使用*
+@import "./elements/header";
+@import "./elements/footer";
+@import "./elements/Home";
+@import "./elements/ProductList";
+@import "./elements/Product";
+@import "./elements/Cart";
+@import "./elements/Order";
+@import "./elements/Checkout";
+@import "./elements/Back";

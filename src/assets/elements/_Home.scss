@@ -1,0 +1,92 @@
+.carousel-img{
+   background-position: center 70%;
+   background-size: cover;
+   height: 450px;
+}
+
+
+//優惠活動跑馬燈
+.couponArea-bg{
+   background-color: #AFBADC;
+}
+.marquee {
+   border-bottom: 1.5px dashed black;
+}
+.marquee span{
+   display: inline-block;
+   padding-right: 15px;
+   border-radius: 3px;
+   white-space: nowrap;
+}
+
+
+.imgWall {
+   position: relative;
+   .imgWall-hover {
+      color: transparent;
+
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      transition: all 0.5s;
+      &:hover {
+         background-color: rgba(#ffffff, 0.5);
+         color: $minor;
+      }
+   }
+}
+
+.img_Setting{
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   min-height: 150px;
+}
+
+
+.parlorImg{
+   background-image: url('./assets/images/chair.png');
+
+}
+.beddingImg{
+   background-image: url('./assets/images/mattress.png');
+}
+.officeImg{
+   background-image: url('./assets/images/pen.png');
+}
+.bathroomImg{
+   background-image: url('./assets/images/towel.png');
+}
+
+
+
+// 熱銷商品
+.card-cover{
+   overflow: hidden;
+}
+.card-img{
+   transform: scale(1, 1);
+   transition: all 0.3s ease-out;
+   position: relative;
+   height: 150px; 
+   background-size: cover; 
+   background-position: center;
+   &:hover {
+      transform: scale(1.2, 1.2);
+   }
+}
+// 左右箭頭樣式調整
+.swiper_shell{
+   position: relative;
+
+   // 彈性滿版寬度扣除 swiper-button 超出邊界，避免 X軸 出現
+   width: calc(100% - 100px);
+}
+.swiper-button-prev{
+   left: -50px;
+}
+.swiper-button-next{
+   right: -50px;
+}

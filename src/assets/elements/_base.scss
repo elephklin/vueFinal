@@ -1,0 +1,27 @@
+*{
+   box-sizing: border-box;
+   font-family: sans-serif, "微軟正黑體", "Segoe UI", "Roboto", "Helvetica Neue", Arial, "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+body{
+   background-color: $base;
+}
+
+a{
+   text-decoration: none;
+   color: #272424;
+   &:hover {
+      text-decoration: none;
+      color: $focus;
+   }
+}
+
+img{
+   max-width: 100%;
+   height: auto;
+}
+
+ol, ul {
+   list-style: none;
+   padding-inline-start: 0;
+}
