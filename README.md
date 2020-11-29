@@ -7,10 +7,13 @@
 ## 網站首頁
 https://elephklin.github.io/vueFinal/
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 相關技術
+
+- Vue Cli 3
+- Bootstrap 4
+- JavaScript
+- SCSS
+- RWD
 
 ### Compiles and minifies for production
 ```
