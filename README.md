@@ -27,16 +27,15 @@ https://elephklin.github.io/vueFinal/
 ## 功能和架構
 
 + 前台使用者介面：
-  + 會員登入
-  + 購物車
-  + 優惠活動
-  + 商品分類導覽列
-  + 商品總列表、單一商品介紹頁面
-  
+  + 會員登入驗證
+  + 購物車(新增、刪除)
+  + 結帳流程(套用優惠券、訂單、結帳)
+  + 商品總列表
+  + 單一商品介紹頁面
+
+
 + 後台管理者介面：
   + 我的訂單(編輯)
   + 商品列表(產品新增、編輯、刪除)
   + 優惠券(新增、編輯、刪除)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
