@@ -54,4 +54,15 @@ https://elephklin.github.io/vueFinal/
 ###### 商品列表頁面
 ![productList](https://upload.cc/i1/2020/11/30/H1URLK.png)
 
+###### 單一商品頁面
+![product1](https://upload.cc/i1/2020/11/30/hF9nvi.png)
+![product2](https://upload.cc/i1/2020/11/30/z4Xjld.png)
 
+###### 購物車功能：確認選購商品進入結帳流程
+![cart](https://upload.cc/i1/2020/11/30/BKTja2.png)
+
+###### 結帳流程
+![checkout](https://upload.cc/i1/2020/11/30/DCBbve.png)
+
+###### 後台管理：包含訂單、商品列表、優惠券，由會員中心登入
+![back](https://upload.cc/i1/2020/11/30/NFbhwv.png)
