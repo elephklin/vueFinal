@@ -50,3 +50,8 @@ https://elephklin.github.io/vueFinal/
 
 ###### [熱銷商品區] 點擊購物車按鈕，可以加入商品到表頭購物車內。點擊查看更多，可以進入單一商品介紹頁面。
 ![hotProducts](https://upload.cc/i1/2020/11/30/Vb510A.png)
+
+###### 商品列表頁面
+![productList](https://upload.cc/i1/2020/11/30/H1URLK.png)
+
+
